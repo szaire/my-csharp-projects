@@ -1,0 +1,15 @@
+/home/samueo/SAMprojects/my-csharp-projects/Calculator/bin/Debug/net6.0/Calculator
+/home/samueo/SAMprojects/my-csharp-projects/Calculator/bin/Debug/net6.0/Calculator.deps.json
+/home/samueo/SAMprojects/my-csharp-projects/Calculator/bin/Debug/net6.0/Calculator.runtimeconfig.json
+/home/samueo/SAMprojects/my-csharp-projects/Calculator/bin/Debug/net6.0/Calculator.dll
+/home/samueo/SAMprojects/my-csharp-projects/Calculator/bin/Debug/net6.0/ref/Calculator.dll
+/home/samueo/SAMprojects/my-csharp-projects/Calculator/bin/Debug/net6.0/Calculator.pdb
+/home/samueo/SAMprojects/my-csharp-projects/Calculator/obj/Debug/net6.0/Calculator.csproj.AssemblyReference.cache
+/home/samueo/SAMprojects/my-csharp-projects/Calculator/obj/Debug/net6.0/Calculator.GeneratedMSBuildEditorConfig.editorconfig
+/home/samueo/SAMprojects/my-csharp-projects/Calculator/obj/Debug/net6.0/Calculator.AssemblyInfoInputs.cache
+/home/samueo/SAMprojects/my-csharp-projects/Calculator/obj/Debug/net6.0/Calculator.AssemblyInfo.cs
+/home/samueo/SAMprojects/my-csharp-projects/Calculator/obj/Debug/net6.0/Calculator.csproj.CoreCompileInputs.cache
+/home/samueo/SAMprojects/my-csharp-projects/Calculator/obj/Debug/net6.0/Calculator.dll
+/home/samueo/SAMprojects/my-csharp-projects/Calculator/obj/Debug/net6.0/ref/Calculator.dll
+/home/samueo/SAMprojects/my-csharp-projects/Calculator/obj/Debug/net6.0/Calculator.pdb
+/home/samueo/SAMprojects/my-csharp-projects/Calculator/obj/Debug/net6.0/Calculator.genruntimeconfig.cache
