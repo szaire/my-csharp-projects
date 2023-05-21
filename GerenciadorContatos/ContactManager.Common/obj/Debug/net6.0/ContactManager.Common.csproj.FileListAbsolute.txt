@@ -1,0 +1,12 @@
+/home/samueo/SAMprojects/my-csharp-projects/GerenciadorContatos/ContactManager.Common/bin/Debug/net6.0/ContactManager.Common.deps.json
+/home/samueo/SAMprojects/my-csharp-projects/GerenciadorContatos/ContactManager.Common/bin/Debug/net6.0/ContactManager.Common.dll
+/home/samueo/SAMprojects/my-csharp-projects/GerenciadorContatos/ContactManager.Common/bin/Debug/net6.0/ref/ContactManager.Common.dll
+/home/samueo/SAMprojects/my-csharp-projects/GerenciadorContatos/ContactManager.Common/bin/Debug/net6.0/ContactManager.Common.pdb
+/home/samueo/SAMprojects/my-csharp-projects/GerenciadorContatos/ContactManager.Common/obj/Debug/net6.0/ContactManager.Common.csproj.AssemblyReference.cache
+/home/samueo/SAMprojects/my-csharp-projects/GerenciadorContatos/ContactManager.Common/obj/Debug/net6.0/ContactManager.Common.GeneratedMSBuildEditorConfig.editorconfig
+/home/samueo/SAMprojects/my-csharp-projects/GerenciadorContatos/ContactManager.Common/obj/Debug/net6.0/ContactManager.Common.AssemblyInfoInputs.cache
+/home/samueo/SAMprojects/my-csharp-projects/GerenciadorContatos/ContactManager.Common/obj/Debug/net6.0/ContactManager.Common.AssemblyInfo.cs
+/home/samueo/SAMprojects/my-csharp-projects/GerenciadorContatos/ContactManager.Common/obj/Debug/net6.0/ContactManager.Common.csproj.CoreCompileInputs.cache
+/home/samueo/SAMprojects/my-csharp-projects/GerenciadorContatos/ContactManager.Common/obj/Debug/net6.0/ContactManager.Common.dll
+/home/samueo/SAMprojects/my-csharp-projects/GerenciadorContatos/ContactManager.Common/obj/Debug/net6.0/ref/ContactManager.Common.dll
+/home/samueo/SAMprojects/my-csharp-projects/GerenciadorContatos/ContactManager.Common/obj/Debug/net6.0/ContactManager.Common.pdb
