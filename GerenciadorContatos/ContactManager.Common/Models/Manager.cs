@@ -40,6 +40,7 @@ namespace ContactManager.Common.Models
 		public void DeleteContact(int id)
 		{
 			Contact contact = ContactList[id];
+			/* Implement a yes or no question */
 			Console.WriteLine($"Deleting contact \"{contact.Name}\"");
 			ContactList.Remove(id);
 		}
