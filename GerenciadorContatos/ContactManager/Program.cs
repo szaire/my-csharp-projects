@@ -6,7 +6,7 @@ internal class Program
 	{
 		Console.Clear();
 
-		Contact c1 = new Standard("Isfnokovic", "(85) 98888-7777");
+		Contact c1 = new Standard("Ibrahmovic", "(85) 98888-7777");
 		c1.ReceiveCall();
 
 		Manager mgr = new Manager();
@@ -15,6 +15,13 @@ internal class Program
 		mgr.AddContact(new Business("Fosneca", "(85) 98786-9890", "(88) 3232-4343"));
 
 		mgr.ShowContactList();
+		Console.WriteLine();
+		mgr.ShowContact(1);
+		Console.WriteLine();
+		mgr.DeleteContact(0);
+		Console.WriteLine();
+		mgr.ShowContactList();
+		Console.WriteLine();
 
 		Console.WriteLine();
 	}

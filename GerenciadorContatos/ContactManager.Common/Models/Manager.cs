@@ -34,10 +34,26 @@ namespace ContactManager.Common.Models
 			Index++;
 		}
 
-		
+		// TODO: Make Update Contact Method
+		public void EditContact(int id) { /* Implement method */ }
+
+		public void DeleteContact(int id)
+		{
+			Contact contact = ContactList[id];
+			Console.WriteLine($"Deleting contact \"{contact.Name}\"");
+			ContactList.Remove(id);
+		}
+
+		public void ShowContact(int id)
+		{
+			Contact contact = ContactList[id];			
+			Console.WriteLine($"Index: {id}");
+			contact.ShowContactDetails();
+		}
 
 		public void ShowContactList()
 		{
+			Console.WriteLine("<Listing all contacts>");
 			foreach (var (index, contact) in ContactList)
 			{
 				Console.WriteLine($"Index: {index}");

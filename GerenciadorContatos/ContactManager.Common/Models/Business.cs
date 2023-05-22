@@ -54,6 +54,7 @@ namespace ContactManager.Common.Models
 			{
 				Console.Write($"{c.Number} ");
 			}
+			Console.WriteLine();
 		}
 
 		public override string ToString()
