@@ -1,0 +1,25 @@
+[
+  {
+    "Id": 0,
+    "Name": "Pedre",
+    "Nickname": "Quinhes",
+    "Number": "85978786767",
+    "IsFavorite": true
+  },
+  {
+    "Id": 1,
+    "Name": "Jailson",
+    "Nickname": "Mendes",
+    "Number": "61987874545",
+    "IsFavorite": true
+  },
+  {
+    "SectionNumber": "8532324545",
+    "BlockedNumbers": [],
+    "Id": 2,
+    "Name": "Batavere",
+    "Nickname": "Profissional",
+    "Number": "85933345556",
+    "IsFavorite": false
+  }
+]

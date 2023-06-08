@@ -1,0 +1,24 @@
+class Slob
+class Smob
+
+@startuml Hello World
+
+' Bobs characteristics
+skinparam ClassAttributeIconSize 0
+
+class Bob {
+	-data: String
+	+arr: int[ ]
+	#foo: double
+
+	+equals1() : void
+	+equals2() : void
+	+equals3() : void
+}
+
+
+Bob <|-- Slob
+Slob *-- Smob
+Bob o-- Smob
+
+@enduml

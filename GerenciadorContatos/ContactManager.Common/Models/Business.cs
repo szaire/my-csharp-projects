@@ -10,15 +10,18 @@ namespace ContactManager.Common.Models
 		private string? _sectionNumber;
 		private List<Contact>? _blockedNumbers;
 
-		public Business(string name, string number) : base(name, number) 
-		{
-			BlockedNumber = new List<Contact>();
-		}
+		public Business() : base() { }
 
-		public Business(string name, string number, string sectionNumber) : base(name, number) 
+		public Business( int id,
+			string name,
+			string nickname,
+			string number,
+			string isFavorite,
+			string sectionNumber) : base(id, name, nickname, number, isFavorite)
 		{
-			BlockedNumber = new List<Contact>();
+			BlockedNumbers = new List<Contact>();
 			SectionNumber = sectionNumber;
+			// ConcatAttributesValues(new string[] {"Section Number"});
 		}
 
 		public string SectionNumber
@@ -35,7 +38,7 @@ namespace ContactManager.Common.Models
 			}
 		}
 
-		public List<Contact> BlockedNumber
+		public List<Contact> BlockedNumbers
 		{
 			get => _blockedNumbers;
 			set => _blockedNumbers = value;
@@ -50,7 +53,7 @@ namespace ContactManager.Common.Models
 		{
 			Console.WriteLine(ToString());
 			Console.Write("\tBlocked Numbers: ");
-			foreach (Contact c in BlockedNumber)
+			foreach (Contact c in BlockedNumbers)
 			{
 				Console.Write($"{c.Number} ");
 			}

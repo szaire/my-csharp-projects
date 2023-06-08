@@ -7,7 +7,13 @@ namespace ContactManager.Common.Models
 {
 	public class Standard : Contact
 	{
-		public Standard(string name, string number) : base(name, number) { }
+		public Standard() : base() { }
+
+		public Standard(int id,
+			string name,
+			string nickname,
+			string number,
+			string isFavorite) : base(id, name, nickname, number, isFavorite) { }
 
 		public override void ReceiveCall()
 		{

@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "+qPnwn/whI/n4nYJpYzrO/PAmRQedT8Y0sNS6QnpEvOCJ8/fROEoPXTlfmDa6Z8DdLZDznWIpTFR92psJ+xYdw==",
+  "dgSpecHash": "Wh7cJhwfYHjAozcy1HTouXfyyHInNDnNI882RWV8M9KuMV1PXdbeAQk+cA+WSByZyG45WVVs+3/zk9sldknnng==",
   "success": true,
   "projectFilePath": "/home/samueo/SAMprojects/my-csharp-projects/GerenciadorContatos/ContactManager.Common/ContactManager.Common.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/home/samueo/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

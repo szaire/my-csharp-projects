@@ -16,3 +16,4 @@
 /home/samueo/SAMprojects/my-csharp-projects/GerenciadorContatos/ContactManager/obj/Debug/net6.0/ref/ContactManager.dll
 /home/samueo/SAMprojects/my-csharp-projects/GerenciadorContatos/ContactManager/obj/Debug/net6.0/ContactManager.pdb
 /home/samueo/SAMprojects/my-csharp-projects/GerenciadorContatos/ContactManager/obj/Debug/net6.0/ContactManager.genruntimeconfig.cache
+/home/samueo/SAMprojects/my-csharp-projects/GerenciadorContatos/ContactManager/bin/Debug/net6.0/Newtonsoft.Json.dll

@@ -8,19 +8,39 @@ namespace ContactManager.Common.Models
 	public abstract class Contact
 	{
 		// Fields
+		protected int _id;
 		protected string _name;
 		protected string? _nickname;
 		protected string _number;
 		protected bool _isFavorite;
+		// protected string[] _attributes = { "Name", "Nickname", "Number", "Favorite" };
 
 		// Constructor
-		public Contact(string name, string number)
+		public Contact() { }
+
+		public Contact(int id, string name, string nickname, string number, string isFavorite)
 		{
+			Id = id;
 			Name = name;
+			Nickname = nickname;
 			Number = number;
+			if (isFavorite == "y")
+			{
+				IsFavorite = true;
+			}
+			else
+			{
+				IsFavorite = false;
+			}
 		}
 
 		// Properties
+		public int Id
+		{
+			get => _id;
+			set => _id = value;
+		}
+
 		public string Name
 		{
 			get => _name;
@@ -29,7 +49,7 @@ namespace ContactManager.Common.Models
 			{
 				if (value == "" || value == null)
 				{
-					throw new ArgumentNullException("O nome do contato não pode ser vazio.");
+					throw new ArgumentNullException("Contact Name can't be null.");
 				}
 				_name = value;
 			}
@@ -49,7 +69,7 @@ namespace ContactManager.Common.Models
 			{
 				if (value == "" || value == null)
 				{
-					throw new ArgumentNullException("O númerto de contato não pode ser vazio.");
+					throw new ArgumentNullException("Contact Number can't be null.");
 				}
 				_number = value;
 			}
@@ -64,5 +84,11 @@ namespace ContactManager.Common.Models
 		// <<Abstract>>
 		public abstract void ReceiveCall();
 		public abstract void ShowContactDetails();
+
+		// Compatibility Method
+		// public void ConcatAttributesValues(string[] attr)
+		// {
+		// 	_attributes.Concat(attr);
+		// }
 	}
 }
